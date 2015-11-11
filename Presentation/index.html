@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top 10 Baby Name From 2004 to 2014</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Top 10 Baby Name From 2004 to 2014">
+  <meta name="author" content="Rita">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Top 10 Baby Name From 2004 to 2014</h1>
+    <h2></h2>
+    <p>Rita<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h1>How to pick the right baby name ?</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>It is a different topic for expecting parents to find the right name for their baby. This applet displays the top 10 baby name from 2004 to 2014. Therefore, expecting parents can easily know if they want to pick a popular name for their baby or they want to avoid these name for their baby. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h1>Data</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>The data was collected from Official Social Security website <a href="https://www.ssa.gov/OACT/babynames/index.html">https://www.ssa.gov/OACT/babynames/index.html</a></p>
+
+<pre><code class="r">setwd(&#39;C:/Users/owner/Desktop/Datascience/Developing_data_products/Project&#39;)
+
+Boys&lt;-read.csv(&quot;./bbabyname.csv&quot;)
+Girls&lt;-read.csv(&quot;./gbaby.csv&quot;)
+
+head(Boys)
+</code></pre>
+
+<pre><code>##   Gender Year Rank    Name Value
+## 1    Boy 2004    1   Jacob 27871
+## 2    Boy 2004    2 Michael 25438
+## 3    Boy 2004    3  Joshua 24183
+## 4    Boy 2004    4 Matthew 22868
+## 5    Boy 2004    5   Ethan 22203
+## 6    Boy 2004    6  Andrew 21694
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h1>How to use this App</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>This applet has two dropdown box. First is the gender dropdown box and second is the year dropdown box. The applet would base on the selected gender and year display the result with a bar chart. </p>
+
+<p><img src="name.JPG" width="1000px" height="500px" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h1>About</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>This applet was made for Coursera&#39;s Developing Data Products.  </p>
+
+<p>It was weitten in R and hosted by shiny apps at <a href="https://jawy.shinyapps.io/Project">https://jawy.shinyapps.io/Project</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='How to pick the right baby name ?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to use this App'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='About'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
