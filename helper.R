@@ -1,5 +1,4 @@
-getwd()
-setwd('C:/Users/owner/Desktop/Datascience/Developing_data_products/Project')
+
 
 
 

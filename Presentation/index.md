@@ -9,6 +9,7 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+
 ---
 How to pick the right baby name ?
 ========================================
@@ -24,10 +25,8 @@ The data was collected from Official Social Security website https://www.ssa.gov
 
 
 ```r
-setwd('C:/Users/owner/Desktop/Datascience/Developing_data_products/Project')
-
-Boys<-read.csv("./bbabyname.csv")
-Girls<-read.csv("./gbaby.csv")
+Boys<-read.csv("./data/bbabyname.csv")
+Girls<-read.csv("./data/gbaby.csv")
 
 head(Boys)
 ```
@@ -56,7 +55,6 @@ About
 ========================
 This applet was made for Coursera's Developing Data Products.  
 
-It was weitten in R and hosted by shiny apps at https://jawy.shinyapps.io/Project
-
+It was weitten in R and hosted by shiny apps at https://jawy.shinyapps.io/shinyapp
 
 
